@@ -4,6 +4,33 @@ An Apple.com-style multi-page landing site for **REDAPPLEKE**, a Kenyan Apple
 reseller. It showcases the full Apple catalogue (fetched from apple.com) and
 routes every purchase to the REDAPPLEKE shop: **https://shop.redappleke.com**.
 
+## Deploying to Vercel
+
+The repo ships `vercel.json` (SPA rewrites, cache + security headers, pnpm
+build). Two ways to deploy:
+
+**Dashboard (recommended):** push this repo to GitHub, then on
+[vercel.com/new](https://vercel.com/new) import it — Vercel auto-detects Vite,
+uses `pnpm build` → `dist`, and every push to `main` redeploys.
+
+**CLI:**
+
+```bash
+npm i -g vercel
+vercel          # preview deployment
+vercel --prod   # production
+```
+
+Notes:
+
+- `public/assets` (product images + films, ~35 MB) is **committed**, so the
+  deployment needs no fetch step at build time.
+- To refresh the catalogue later: `pnpm fetch:assets`, then commit the changed
+  files and push.
+
+If you'd rather keep media out of git, host `public/assets` on a CDN/bucket
+instead and set `ASSETS_BASE` — but out of the box everything is self-contained.
+
 ## Pages
 
 | Route             | Page                                             |

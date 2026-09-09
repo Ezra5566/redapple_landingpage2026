@@ -1,0 +1,862 @@
+{
+  "fetchedAt": "2026-09-09T19:38:58.165Z",
+  "source": "https://www.apple.com",
+  "categories": [
+    {
+      "id": "iphone",
+      "label": "iPhone",
+      "appleUrl": "https://www.apple.com/iphone/",
+      "products": [
+        {
+          "slug": "iphone-18-pro",
+          "name": "iPhone 18 Pro and iPhone 18 Pro Max",
+          "tagline": "Total AI powerhouse. 48MP Main camera with variable aperture. Big leap in battery life. Next-generation vapor chamber. A20 Pro chip.",
+          "description": "iPhone 18 Pro. Total AI powerhouse. 48MP Main camera with variable aperture. Big leap in battery life. Next-generation vapor chamber. A20 Pro chip.",
+          "image": "/assets/iphone/iphone-18-pro.png",
+          "source": "https://www.apple.com/iphone-18-pro/",
+          "appleUrl": "https://www.apple.com/iphone-18-pro/"
+        },
+        {
+          "slug": "iphone-duo",
+          "name": "iPhone Duo",
+          "tagline": "The largest iPhone display ever. In a thin, foldable design. 48MP Dual Fusion camera system. A20 Pro chip. All-day battery life.",
+          "description": "iPhone Duo. The largest iPhone display ever. In a thin, foldable design. 48MP Dual Fusion camera system. A20 Pro chip. All-day battery life.",
+          "image": "/assets/iphone/iphone-duo.png",
+          "source": "https://www.apple.com/iphone-duo/",
+          "appleUrl": "https://www.apple.com/iphone-duo/"
+        },
+        {
+          "slug": "iphone-air",
+          "name": "iPhone Air",
+          "tagline": "The thinnest iPhone ever. With the power of the A19 Pro chip inside. The new Center Stage front camera. And Ceramic Shield front and back.",
+          "description": "The thinnest iPhone ever. With the power of the A19 Pro chip inside. The new Center Stage front camera. And Ceramic Shield front and back.",
+          "image": "/assets/iphone/iphone-air.png",
+          "source": "https://www.apple.com/iphone-air/",
+          "appleUrl": "https://www.apple.com/iphone-air/"
+        },
+        {
+          "slug": "iphone-17",
+          "name": "iPhone 17",
+          "tagline": "Center Stage front camera. Latest-generation Ceramic Shield. 6.3-inch ProMotion display. A19 chip. Five  gorgeous colors.",
+          "description": "iPhone 17. Center Stage front camera. Latest-generation Ceramic Shield. 6.3-inch ProMotion display. A19 chip. Five  gorgeous colors.",
+          "image": "/assets/iphone/iphone-17.png",
+          "source": "https://www.apple.com/iphone-17/",
+          "appleUrl": "https://www.apple.com/iphone-17/"
+        },
+        {
+          "slug": "iphone-17e",
+          "name": "iPhone 17e",
+          "tagline": "Durable Ceramic Shield 2. Long Battery life. 48MP Camera. 256GB storage. A19 chip. iOS 27. Built for Apple Intelligence.",
+          "description": "iPhone 17e. Durable Ceramic Shield 2. Long Battery life. 48MP Camera. 256GB storage. A19 chip. iOS 27. Built for Apple Intelligence.",
+          "image": "/assets/iphone/iphone-17e.png",
+          "source": "https://www.apple.com/iphone-17e/",
+          "appleUrl": "https://www.apple.com/iphone-17e/"
+        }
+      ],
+      "gallery": []
+    },
+    {
+      "id": "tv-home",
+      "label": "TV & Home",
+      "appleUrl": "https://www.apple.com/tv-home/",
+      "products": [
+        {
+          "slug": "apple-tv-4k",
+          "name": "Apple TV 4K",
+          "tagline": "Our best audio and video quality. Dolby Vision, HDR10+, and Dolby Atmos. Works seamlessly with Apple devices, services, and smart home.",
+          "description": "Apple TV 4K. Our best audio and video quality. Dolby Vision, HDR10+, and Dolby Atmos. Works seamlessly with Apple devices, services, and smart home.",
+          "image": "/assets/tv-home/apple-tv-4k.png",
+          "source": "https://www.apple.com/apple-tv-4k/",
+          "appleUrl": "https://www.apple.com/apple-tv-4k/"
+        },
+        {
+          "slug": "homepod",
+          "name": "HomePod",
+          "tagline": "HomePod mini takes up no space yet delivers room-filling sound. HomePod is a breakthrough high-fidelity speaker. Both help you multitask with Siri.",
+          "description": "HomePod mini takes up no space yet delivers room-filling sound. HomePod is a breakthrough high-fidelity speaker. Both help you multitask with Siri.",
+          "image": "/assets/tv-home/homepod.png",
+          "source": "https://www.apple.com/homepod/",
+          "appleUrl": "https://www.apple.com/homepod/"
+        },
+        {
+          "slug": "homepod-mini",
+          "name": "HomePod mini",
+          "tagline": "A smart speaker with room-filling sound. An intelligent assistant that helps you control your smart home. 100% private and secure.",
+          "description": "HomePod mini. A smart speaker with room-filling sound. An intelligent assistant that helps you control your smart home. 100% private and secure.",
+          "image": "/assets/tv-home/homepod-mini.png",
+          "source": "https://www.apple.com/homepod-mini/",
+          "appleUrl": "https://www.apple.com/homepod-mini/"
+        },
+        {
+          "slug": "apple-tv-app",
+          "name": "Apple TV app",
+          "tagline": "The Apple TV app features Apple TV, all your favorite streaming services, top cable TV providers, premium channels, and new Release movies.",
+          "description": "The Apple TV app features Apple TV, all your favorite streaming services, top cable TV providers, premium channels, and new Release movies.",
+          "image": "/assets/tv-home/apple-tv-app.png",
+          "source": "https://www.apple.com/apple-tv-app/",
+          "appleUrl": "https://www.apple.com/apple-tv-app/"
+        },
+        {
+          "slug": "apple-tv-plus",
+          "name": "Apple TV",
+          "tagline": "The Apple TV subscription features critically acclaimed Apple Original shows and movies. Watch on the Apple TV app across devices.",
+          "description": "The Apple TV subscription features critically acclaimed Apple Original shows and movies. Watch on the Apple TV app across devices.",
+          "image": "/assets/tv-home/apple-tv-plus.png",
+          "source": "https://www.apple.com/apple-tv-plus/",
+          "appleUrl": "https://www.apple.com/apple-tv-plus/"
+        },
+        {
+          "slug": "homepod-2nd-generation",
+          "name": "HomePod (2nd generation)",
+          "tagline": "High-fidelity audio. Intelligent assistant. Home hub that works across devices. HomePod is a powerhouse speaker with the privacy of Apple built in.",
+          "description": "High-fidelity audio. Intelligent assistant. Home hub that works across devices. HomePod is a powerhouse speaker with the privacy of Apple built in.",
+          "image": "/assets/tv-home/homepod-2nd-generation.png",
+          "source": "https://www.apple.com/homepod-2nd-generation/",
+          "appleUrl": "https://www.apple.com/homepod-2nd-generation/"
+        },
+        {
+          "slug": "apple-tv",
+          "name": "Apple TV",
+          "tagline": "The Apple TV subscription features critically acclaimed Apple Original shows and movies. Watch on the Apple TV app across devices.",
+          "description": "The Apple TV subscription features critically acclaimed Apple Original shows and movies. Watch on the Apple TV app across devices.",
+          "image": "/assets/tv-home/apple-tv.png",
+          "source": "https://www.apple.com/apple-tv/",
+          "appleUrl": "https://www.apple.com/apple-tv/"
+        }
+      ],
+      "gallery": []
+    },
+    {
+      "id": "airpods",
+      "label": "AirPods",
+      "appleUrl": "https://www.apple.com/airpods/",
+      "products": [
+        {
+          "slug": "airpods-pro",
+          "name": "AirPods Pro 3",
+          "tagline": "AirPods Pro 3 — The world’s best in-ear Active Noise Cancellation, heart rate sensing during workouts, and an improved hearing health experience.",
+          "description": "AirPods Pro 3 — The world’s best in-ear Active Noise Cancellation, heart rate sensing during workouts, and an improved hearing health experience.",
+          "image": "/assets/airpods/airpods-pro.png",
+          "source": "https://www.apple.com/airpods-pro/",
+          "appleUrl": "https://www.apple.com/airpods-pro/"
+        },
+        {
+          "slug": "airpods-4",
+          "name": "AirPods 5",
+          "tagline": "Discover the magic of Active Noise Cancellation. Featuring a new acoustic architecture, Live Translation, and Siri AI.",
+          "description": "AirPods 5. Discover the magic of Active Noise Cancellation. Featuring a new acoustic architecture, Live Translation, and Siri AI.",
+          "image": "/assets/airpods/airpods-4.png",
+          "source": "https://www.apple.com/airpods-4/",
+          "appleUrl": "https://www.apple.com/airpods-4/"
+        },
+        {
+          "slug": "airpods-max",
+          "name": "AirPods Max 2",
+          "tagline": "The ultimate over-ear listening experience — in five vibrant colors and with up to 1.5x more Active Noise Cancellation than the previous generation.",
+          "description": "The ultimate over-ear listening experience — in five vibrant colors and with up to 1.5x more Active Noise Cancellation than the previous generation.",
+          "image": "/assets/airpods/airpods-max.png",
+          "source": "https://www.apple.com/airpods-max/",
+          "appleUrl": "https://www.apple.com/airpods-max/"
+        },
+        {
+          "slug": "airpods",
+          "name": "AirPods",
+          "tagline": "AirPods deliver an unparalleled wireless headphone experience, from magical setup to high-quality sound. Available with free engraving.",
+          "description": "AirPods deliver an unparalleled wireless headphone experience, from magical setup to high-quality sound. Available with free engraving.",
+          "image": "/assets/airpods/airpods.png",
+          "source": "https://www.apple.com/airpods/",
+          "appleUrl": "https://www.apple.com/airpods/"
+        },
+        {
+          "slug": "airpods-5",
+          "name": "AirPods 5",
+          "tagline": "Discover the magic of Active Noise Cancellation. Featuring a new acoustic architecture, Live Translation, and Siri AI.",
+          "description": "AirPods 5. Discover the magic of Active Noise Cancellation. Featuring a new acoustic architecture, Live Translation, and Siri AI.",
+          "image": "/assets/airpods/airpods-5.png",
+          "source": "https://www.apple.com/airpods-5/",
+          "appleUrl": "https://www.apple.com/airpods-5/"
+        }
+      ],
+      "gallery": []
+    },
+    {
+      "id": "watch",
+      "label": "Watch",
+      "appleUrl": "https://www.apple.com/watch/",
+      "products": [
+        {
+          "slug": "apple-watch-series-12",
+          "name": "Apple Watch Series 12",
+          "tagline": "With the most extensive set of health, fitness, and safety features, there’s no wearable quite like Apple Watch Series 12.",
+          "description": "With the most extensive set of health, fitness, and safety features, there’s no wearable quite like Apple Watch Series 12.",
+          "image": "/assets/watch/apple-watch-series-12.png",
+          "source": "https://www.apple.com/apple-watch-series-12/",
+          "appleUrl": "https://www.apple.com/apple-watch-series-12/"
+        },
+        {
+          "slug": "apple-watch-ultra-4",
+          "name": "Apple Watch Ultra 4",
+          "tagline": "Apple Watch Ultra 4 is the ultimate running watch, with longer battery life, advanced health and fitness tracking, and Siri AI and audio intelligence.",
+          "description": "Apple Watch Ultra 4 is the ultimate running watch, with longer battery life, advanced health and fitness tracking, and Siri AI and audio intelligence.",
+          "image": "/assets/watch/apple-watch-ultra-4.png",
+          "source": "https://www.apple.com/apple-watch-ultra-4/",
+          "appleUrl": "https://www.apple.com/apple-watch-ultra-4/"
+        },
+        {
+          "slug": "apple-watch-se-3",
+          "name": "Apple Watch SE 3",
+          "tagline": "Apple Watch SE 3 is packed with powerful health, fitness, connectivity, and safety features. Available in two great finishes. All for a great value.",
+          "description": "Apple Watch SE 3 is packed with powerful health, fitness, connectivity, and safety features. Available in two great finishes. All for a great value.",
+          "image": "/assets/watch/apple-watch-se-3.png",
+          "source": "https://www.apple.com/apple-watch-se-3/",
+          "appleUrl": "https://www.apple.com/apple-watch-se-3/"
+        },
+        {
+          "slug": "apple-watch-nike",
+          "name": "Apple Watch Nike",
+          "tagline": "Apple and Nike continue our long-running partnership with watch bands that are designed to go the distance.",
+          "description": "Apple and Nike continue our long-running partnership with watch bands that are designed to go the distance.",
+          "image": "/assets/watch/apple-watch-nike.png",
+          "source": "https://www.apple.com/apple-watch-nike/",
+          "appleUrl": "https://www.apple.com/apple-watch-nike/"
+        }
+      ],
+      "gallery": []
+    },
+    {
+      "id": "mac",
+      "label": "Mac",
+      "appleUrl": "https://www.apple.com/mac/",
+      "products": [
+        {
+          "slug": "macbook-pro",
+          "name": "MacBook Pro",
+          "tagline": "Find the best MacBook Pro for you with the M5, M5 Pro, or M5 Max chip. Built for AI. Up to 24 hours of battery life. Liquid Retina XDR display.",
+          "description": "Find the best MacBook Pro for you with the M5, M5 Pro, or M5 Max chip. Built for AI. Up to 24 hours of battery life. Liquid Retina XDR display.",
+          "image": "/assets/mac/macbook-pro.png",
+          "source": "https://www.apple.com/macbook-pro/",
+          "appleUrl": "https://www.apple.com/macbook-pro/"
+        },
+        {
+          "slug": "macbook-air",
+          "name": "MacBook Air 13-inch and MacBook Air 15-inch",
+          "tagline": "MacBook Air laptop with the superfast M5 chip. Lightweight, with all-day battery life. Built for AI and Apple Intelligence.",
+          "description": "MacBook Air laptop with the superfast M5 chip. Lightweight, with all-day battery life. Built for AI and Apple Intelligence.",
+          "image": "/assets/mac/macbook-air.png",
+          "source": "https://www.apple.com/macbook-air/",
+          "appleUrl": "https://www.apple.com/macbook-air/"
+        },
+        {
+          "slug": "macbook-neo",
+          "name": "MacBook Neo",
+          "tagline": "Introducing MacBook Neo. Stunning colors, durable aluminum design, 13” Liquid Retina display, all-day battery life, AI and Apple Intelligence.",
+          "description": "Introducing MacBook Neo. Stunning colors, durable aluminum design, 13” Liquid Retina display, all-day battery life, AI and Apple Intelligence.",
+          "image": "/assets/mac/macbook-neo.png",
+          "source": "https://www.apple.com/macbook-neo/",
+          "appleUrl": "https://www.apple.com/macbook-neo/"
+        },
+        {
+          "slug": "imac",
+          "name": "iMac",
+          "tagline": "The world’s best all-in-one desktop. Supercharged by M4 chip. Built for Apple Intelligence. With a 24-inch 4.5K display. Advanced camera and audio.",
+          "description": "The world’s best all-in-one desktop. Supercharged by M4 chip. Built for Apple Intelligence. With a 24-inch 4.5K display. Advanced camera and audio.",
+          "image": "/assets/mac/imac.png",
+          "source": "https://www.apple.com/imac/",
+          "appleUrl": "https://www.apple.com/imac/"
+        },
+        {
+          "slug": "mac-mini",
+          "name": "Mac mini",
+          "tagline": "Do it all with the ultracompact Mac mini with M6 or M5 Pro. A powerful platform for AI. Front and back ports. Wi-Fi 7 and Bluetooth 6.",
+          "description": "Do it all with the ultracompact Mac mini with M6 or M5 Pro. A powerful platform for AI. Front and back ports. Wi-Fi 7 and Bluetooth 6.",
+          "image": "/assets/mac/mac-mini.jpg",
+          "source": "https://www.apple.com/mac-mini/",
+          "appleUrl": "https://www.apple.com/mac-mini/"
+        },
+        {
+          "slug": "mac-studio",
+          "name": "Mac Studio",
+          "tagline": "Mac Studio with M5 Max and M5 Ultra. The ultimate pro desktop. Exceptional performance. Extensive connectivity. Runs powerful AI on device.",
+          "description": "Mac Studio with M5 Max and M5 Ultra. The ultimate pro desktop. Exceptional performance. Extensive connectivity. Runs powerful AI on device.",
+          "image": "/assets/mac/mac-studio.png",
+          "source": "https://www.apple.com/mac-studio/",
+          "appleUrl": "https://www.apple.com/mac-studio/"
+        },
+        {
+          "slug": "studio-display",
+          "name": "Studio Display",
+          "tagline": "27-inch 5K Retina display. 600 nits brightness. P3 wide color. 12MP Center Stage camera with Desk View. Mics and speakers. Thunderbolt 5.",
+          "description": "27-inch 5K Retina display. 600 nits brightness. P3 wide color. 12MP Center Stage camera with Desk View. Mics and speakers. Thunderbolt 5.",
+          "image": "/assets/mac/studio-display.png",
+          "source": "https://www.apple.com/studio-display/",
+          "appleUrl": "https://www.apple.com/studio-display/"
+        },
+        {
+          "slug": "studio-display-xdr",
+          "name": "Studio Display XDR",
+          "tagline": "27-inch 5K Retina XDR display. Mini-LED backlight. 2000 nits HDR. P3 + Adobe RGB. 120Hz and Adaptive Sync. Thunderbolt 5. Perfect for pros.",
+          "description": "27-inch 5K Retina XDR display. Mini-LED backlight. 2000 nits HDR. P3 + Adobe RGB. 120Hz and Adaptive Sync. Thunderbolt 5. Perfect for pros.",
+          "image": "/assets/mac/studio-display-xdr.png",
+          "source": "https://www.apple.com/studio-display-xdr/",
+          "appleUrl": "https://www.apple.com/studio-display-xdr/"
+        }
+      ],
+      "gallery": []
+    },
+    {
+      "id": "ipad",
+      "label": "iPad",
+      "appleUrl": "https://www.apple.com/ipad/",
+      "products": [
+        {
+          "slug": "ipad-pro",
+          "name": "iPad Pro",
+          "tagline": "iPad Pro features the M5 chip with Apple Intelligence, all-day battery life, 11-inch or 13-inch display, Wi-Fi 7, 5G, and Apple Pencil Pro support.",
+          "description": "iPad Pro features the M5 chip with Apple Intelligence, all-day battery life, 11-inch or 13-inch display, Wi-Fi 7, 5G, and Apple Pencil Pro support.",
+          "image": "/assets/ipad/ipad-pro.png",
+          "source": "https://www.apple.com/ipad-pro/",
+          "appleUrl": "https://www.apple.com/ipad-pro/"
+        },
+        {
+          "slug": "ipad-air",
+          "name": "iPad Air",
+          "tagline": "iPad Air features the M4 chip, iPadOS 26, Apple Intelligence, 11- or 13-inch Liquid Retina display, and supports Apple Pencil Pro and Magic Keyboard.",
+          "description": "iPad Air features the M4 chip, iPadOS 26, Apple Intelligence, 11- or 13-inch Liquid Retina display, and supports Apple Pencil Pro and Magic Keyboard.",
+          "image": "/assets/ipad/ipad-air.png",
+          "source": "https://www.apple.com/ipad-air/",
+          "appleUrl": "https://www.apple.com/ipad-air/"
+        },
+        {
+          "slug": "ipad-11",
+          "name": "iPad 11-inch (A16)",
+          "tagline": "iPad has an all-screen Liquid Retina display, the A16 chip and four color options. And it supports the Magic Keyboard Folio.",
+          "description": "iPad has an all-screen Liquid Retina display, the A16 chip and four color options. And it supports the Magic Keyboard Folio.",
+          "image": "/assets/ipad/ipad-11.png",
+          "source": "https://www.apple.com/ipad-11/",
+          "appleUrl": "https://www.apple.com/ipad-11/"
+        },
+        {
+          "slug": "ipad-mini",
+          "name": "iPad mini",
+          "tagline": "iPad mini has Apple Intelligence, 8.3-inch Liquid Retina display, A17 Pro chip, supports Apple Pencil Pro and Apple Pencil (USB-C), in four colors.",
+          "description": "iPad mini has Apple Intelligence, 8.3-inch Liquid Retina display, A17 Pro chip, supports Apple Pencil Pro and Apple Pencil (USB-C), in four colors.",
+          "image": "/assets/ipad/ipad-mini.png",
+          "source": "https://www.apple.com/ipad-mini/",
+          "appleUrl": "https://www.apple.com/ipad-mini/"
+        },
+        {
+          "slug": "ipad",
+          "name": "iPad",
+          "tagline": "Explore every iPad. Featuring iPad Pro, iPad Air, iPad mini, and iPad. For work, creativity, or play.",
+          "description": "Explore every iPad. Featuring iPad Pro, iPad Air, iPad mini, and iPad. For work, creativity, or play.",
+          "image": "/assets/ipad/ipad.png",
+          "source": "https://www.apple.com/ipad/",
+          "appleUrl": "https://www.apple.com/ipad/"
+        },
+        {
+          "slug": "apple-pencil",
+          "name": "Apple Pencil",
+          "tagline": "Apple Pencil is the standard for drawing, note-taking, and marking up documents. Intuitive, precise, and magical.",
+          "description": "Apple Pencil is the standard for drawing, note-taking, and marking up documents. Intuitive, precise, and magical.",
+          "image": "/assets/ipad/apple-pencil.png",
+          "source": "https://www.apple.com/apple-pencil/",
+          "appleUrl": "https://www.apple.com/apple-pencil/"
+        },
+        {
+          "slug": "ipad-keyboards",
+          "name": "iPad Keyboards",
+          "tagline": "iPad keyboards provide a great typing experience, full-size keyboard, and durable protection for your iPad.",
+          "description": "iPad keyboards provide a great typing experience, full-size keyboard, and durable protection for your iPad.",
+          "image": "/assets/ipad/ipad-keyboards.png",
+          "source": "https://www.apple.com/ipad-keyboards/",
+          "appleUrl": "https://www.apple.com/ipad-keyboards/"
+        }
+      ],
+      "gallery": []
+    },
+    {
+      "id": "accessories",
+      "label": "Accessories",
+      "appleUrl": "https://www.apple.com/shop/accessories/all",
+      "products": [
+        {
+          "slug": "airtag",
+          "name": "AirTag",
+          "tagline": "Attach AirTag to everyday items, like your keys or a backpack, to easily keep track of them in the Find My app. With its loudest speaker yet and 1.5x Precision Finding range.",
+          "description": "Attach AirTag to everyday items, like your keys or a backpack, to easily keep track of them in the Find My app. With its loudest speaker yet and 1.5x Precision Finding range.",
+          "image": "/assets/accessories/airtag.png",
+          "source": "https://www.apple.com/airtag/",
+          "appleUrl": "https://www.apple.com/airtag/"
+        },
+        {
+          "slug": "apple-pencil",
+          "name": "Apple Pencil",
+          "tagline": "Apple Pencil is the standard for drawing, note-taking, and marking up documents. Intuitive, precise, and magical.",
+          "description": "Apple Pencil is the standard for drawing, note-taking, and marking up documents. Intuitive, precise, and magical.",
+          "image": "/assets/accessories/apple-pencil.png",
+          "source": "https://www.apple.com/apple-pencil/",
+          "appleUrl": "https://www.apple.com/apple-pencil/"
+        },
+        {
+          "slug": "studio-display",
+          "name": "Studio Display",
+          "tagline": "27-inch 5K Retina display. 600 nits brightness. P3 wide color. 12MP Center Stage camera with Desk View. Mics and speakers. Thunderbolt 5.",
+          "description": "27-inch 5K Retina display. 600 nits brightness. P3 wide color. 12MP Center Stage camera with Desk View. Mics and speakers. Thunderbolt 5.",
+          "image": "/assets/accessories/studio-display.png",
+          "source": "https://www.apple.com/studio-display/",
+          "appleUrl": "https://www.apple.com/studio-display/"
+        },
+        {
+          "slug": "studio-display-xdr",
+          "name": "Studio Display XDR",
+          "tagline": "27-inch 5K Retina XDR display. Mini-LED backlight. 2000 nits HDR. P3 + Adobe RGB. 120Hz and Adaptive Sync. Thunderbolt 5. Perfect for pros.",
+          "description": "27-inch 5K Retina XDR display. Mini-LED backlight. 2000 nits HDR. P3 + Adobe RGB. 120Hz and Adaptive Sync. Thunderbolt 5. Perfect for pros.",
+          "image": "/assets/accessories/studio-display-xdr.png",
+          "source": "https://www.apple.com/studio-display-xdr/",
+          "appleUrl": "https://www.apple.com/studio-display-xdr/"
+        },
+        {
+          "slug": "homepod",
+          "name": "HomePod",
+          "tagline": "HomePod mini takes up no space yet delivers room-filling sound. HomePod is a breakthrough high-fidelity speaker. Both help you multitask with Siri.",
+          "description": "HomePod mini takes up no space yet delivers room-filling sound. HomePod is a breakthrough high-fidelity speaker. Both help you multitask with Siri.",
+          "image": "/assets/accessories/homepod.png",
+          "source": "https://www.apple.com/homepod/",
+          "appleUrl": "https://www.apple.com/homepod/"
+        },
+        {
+          "slug": "apple-tv-4k",
+          "name": "Apple TV 4K",
+          "tagline": "Our best audio and video quality. Dolby Vision, HDR10+, and Dolby Atmos. Works seamlessly with Apple devices, services, and smart home.",
+          "description": "Apple TV 4K. Our best audio and video quality. Dolby Vision, HDR10+, and Dolby Atmos. Works seamlessly with Apple devices, services, and smart home.",
+          "image": "/assets/accessories/apple-tv-4k.png",
+          "source": "https://www.apple.com/apple-tv-4k/",
+          "appleUrl": "https://www.apple.com/apple-tv-4k/"
+        },
+        {
+          "slug": "sku-mk974",
+          "name": "Crossbody Strap",
+          "tagline": "Crossbody Strap",
+          "description": "Crossbody Strap, burgundy colour (dark red), a single strap with connectors on each end",
+          "image": "/assets/accessories/sku-mk974.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-mk9h4",
+          "name": "iPhone FineWoven Wallet with MagSafe",
+          "tagline": "iPhone FineWoven Wallet with MagSafe",
+          "description": "iPhone FineWoven Wallet with MagSafe, burgundy color (dark red), back exterior, card slot at top, embedded Apple logo in the center, stitching along the edges",
+          "image": "/assets/accessories/sku-mk9h4.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-mkg04",
+          "name": "AirTag FineWoven Key Ring",
+          "tagline": "AirTag FineWoven Key Ring",
+          "description": "AirTag FineWoven Key Ring, snap closure button, stainless steel key ring, burgundy color (dark red) material covers the outer edge of AirTag, circular cutout, AirTag visible, Apple logo centered",
+          "image": "/assets/accessories/sku-mkg04.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-mkdv4",
+          "name": "iPhone 18 Pro Max Clear Case with MagSafe",
+          "tagline": "iPhone 18 Pro Max Clear Case with MagSafe",
+          "description": "iPhone 18 Pro Max Clear Case with MagSafe, back exterior, attached to iPhone 18 Pro Max in burgundy color (dark red), solid white MagSafe circle with gray Apple logo in center, camera cutout",
+          "image": "/assets/accessories/sku-mkdv4.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-mkf84",
+          "name": "Wrist Strap",
+          "tagline": "Wrist Strap",
+          "description": "Wrist Strap, crisp blue color (light blue), a single strap with a connector at the end",
+          "image": "/assets/accessories/sku-mkf84.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-mkr94",
+          "name": "iPhone Duo Case in sand color (light tan)",
+          "tagline": "iPhone Duo Case in sand color (light tan)",
+          "description": "iPhone Duo Case in sand color (light tan), landscape orientation, fully unfolded, back exterior, embedded Apple logo in center, iPhone Duo in star white color visible through camera cutout, case covers the back exterior and outer edge of the front exterior display",
+          "image": "/assets/accessories/sku-mkr94.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-mkr64",
+          "name": "iPhone Duo Folio with Kickstand in taupe color (brownish-gray)",
+          "tagline": "iPhone Duo Folio with Kickstand in taupe color (brownish-gray)",
+          "description": "iPhone Duo Folio with Kickstand in taupe color (brownish-gray), landscape orientation, fully unfolded, back exterior, kickstand extended with centered Apple logo, iPhone Duo in star white color visible through camera cutout",
+          "image": "/assets/accessories/sku-mkr64.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-hsll2",
+          "name": "Aer Go Pack 2",
+          "tagline": "Aer Go Pack 2",
+          "description": "Aer Go Pack 2, front exterior, olive green color, black handle at top, two zippers, front pocket with fastener, black tag attached at lower right, text reads: Aer",
+          "image": "/assets/accessories/sku-hsll2.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-hs7t2",
+          "name": "Native Union Ultralight Sleeve for MacBook",
+          "tagline": "Native Union Ultralight Sleeve for MacBook",
+          "description": "Native Union Ultralight Sleeve for MacBook, front exterior, green colour, landscape orientation, one corded zip pull on left side and one at upper middle, rounded corners",
+          "image": "/assets/accessories/sku-hs7t2.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-hsjs2",
+          "name": "PopSockets Squishy Kickout Grip",
+          "tagline": "PopSockets Squishy Kickout Grip",
+          "description": "PopSockets Squishy Kickout Grip, green color, flower shaped, MagSafe adapter ring",
+          "image": "/assets/accessories/sku-hsjs2.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-mdge4",
+          "name": "Beats USB-C to USB-C Woven Cable (1.5 m / 5 ft) in Nitro Navy.",
+          "tagline": "Beats USB-C to USB-C Woven Cable (1.5 m / 5 ft) in Nitro Navy.",
+          "description": "Beats USB-C to USB-C Woven Cable (1.5 m / 5 ft) in Nitro Navy.",
+          "image": "/assets/accessories/sku-mdge4.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-mgtl4",
+          "name": "Beats Kickstand Case",
+          "tagline": "Beats Kickstand Case",
+          "description": "Beats Kickstand Case, lime stone color to attached iPhone 17, with color-matched lanyard and adapter, neon yellow-green color Beats logo in small type centered at the bottom of the case, matte finish",
+          "image": "/assets/accessories/sku-mgtl4.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-mwvv3",
+          "name": "20 watt USB-C Power Adapter",
+          "tagline": "20 watt USB-C Power Adapter",
+          "description": "20 watt USB-C Power Adapter, white color, Type A plug",
+          "image": "/assets/accessories/sku-mwvv3.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-hsm42",
+          "name": "Nimble SharePower 10K Battery Pack",
+          "tagline": "Nimble SharePower 10K Battery Pack",
+          "description": "Nimble SharePower 10K Battery Pack, front exterior, blue color, lanyard at top, battery percentage indicator at left, type reads: 100%",
+          "image": "/assets/accessories/sku-hsm42.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-hsjk2",
+          "name": "Belkin UltraCharge Pro 3-in-1 Magnetic Charging Dock",
+          "tagline": "Belkin UltraCharge Pro 3-in-1 Magnetic Charging Dock",
+          "description": "Belkin UltraCharge Pro 3-in-1 Magnetic Charging Dock, front exterior, blue color, iPhone charging on top in landscape orientation, Apple Watch charging at back, and AirPods case charging at bottom right",
+          "image": "/assets/accessories/sku-hsjk2.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-hslk2",
+          "name": "Native Union Active organizer",
+          "tagline": "Native Union Active organizer",
+          "description": "Native Union Active organizer, front exterior, green color, zipper pocket at front, zipper pull with yellow lanyard attached at left",
+          "image": "/assets/accessories/sku-hslk2.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-mgd74",
+          "name": "MagSafe Charger",
+          "tagline": "MagSafe Charger",
+          "description": "MagSafe Charger, interior charging surface, a white circle surrounded by outer gray ring, embedded white woven cable.",
+          "image": "/assets/accessories/sku-mgd74.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-mgpg4",
+          "name": "iPhone Air MagSafe Battery",
+          "tagline": "iPhone Air MagSafe Battery",
+          "description": "iPhone Air MagSafe Battery, white color",
+          "image": "/assets/accessories/sku-mgpg4.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-mqkj3",
+          "name": "Top view of the cable placed in a coiled position with USB-C connectors at both ends.",
+          "tagline": "Top view of the cable placed in a coiled position with USB-C connectors at both ends.",
+          "description": "Top view of the cable placed in a coiled position with USB-C connectors at both ends.",
+          "image": "/assets/accessories/sku-mqkj3.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-mgkn4",
+          "name": "Dynamic Power Adapter",
+          "tagline": "Dynamic Power Adapter",
+          "description": "Dynamic Power Adapter, USB-C port, type A plug with pins folded out, square shape, rounded corners, white color",
+          "image": "/assets/accessories/sku-mgkn4.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-hsln2",
+          "name": "Mophie 3-in-1 Wireless Charge Stand",
+          "tagline": "Mophie 3-in-1 Wireless Charge Stand",
+          "description": "Mophie 3-in-1 Wireless Charge Stand, front exterior, white color, rounded corners, three charging zones: flat base pad with AirPods wireless charging case, elevated center mount with angled iPhone, elevated rear arm with Apple Watch",
+          "image": "/assets/accessories/sku-hsln2.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-hrxy2",
+          "name": "Scosche WatchIt Apple Watch Magnetic Fast Charger With USB-C Connector",
+          "tagline": "Scosche WatchIt Apple Watch Magnetic Fast Charger With USB-C Connector",
+          "description": "Scosche WatchIt Apple Watch Magnetic Fast Charger With USB-C Connector, white, Keychain carabiner attached at top, Scosche logo at center, charger at bottom",
+          "image": "/assets/accessories/sku-hrxy2.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-hsl02",
+          "name": "Nimble Podium 3-in-1 Wireless Charging Dock",
+          "tagline": "Nimble Podium 3-in-1 Wireless Charging Dock",
+          "description": "Nimble Podium 3-in-1 Wireless Charging Dock, front exterior, white color, iPhone in Stand By mode charging at top, bottom left Airpods Wireless Charging Case charging, bottom-right Apple Watch displaying green Nightstand clock screen",
+          "image": "/assets/accessories/sku-hsl02.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-hsld2",
+          "name": "Belkin 10K BoostCharge Pro Power Bank",
+          "tagline": "Belkin 10K BoostCharge Pro Power Bank",
+          "description": "Belkin 10K BoostCharge Pro Power Bank, top exterior, sand color, rounded corners, LED power indicator at top, text reads: 100, Apple Watch charging, integrated USB-C cable at side, power button below it, USB-C charge port at bottom",
+          "image": "/assets/accessories/sku-hsld2.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-muvq3",
+          "name": "USB-C to MagSafe 3 cable",
+          "tagline": "USB-C to MagSafe 3 cable",
+          "description": "USB-C to MagSafe 3 cable, 2 meter, coiled, Space Black woven design, magnetic MagSafe 3 connector and USB-C connector in matching Space Black.",
+          "image": "/assets/accessories/sku-muvq3.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-mk8p4",
+          "name": "Beats USB-C to USB-C Woven Cable (1.5 m / 5 ft) in Power Pink.",
+          "tagline": "Beats USB-C to USB-C Woven Cable (1.5 m / 5 ft) in Power Pink.",
+          "description": "Beats USB-C to USB-C Woven Cable (1.5 m / 5 ft) in Power Pink.",
+          "image": "/assets/accessories/sku-mk8p4.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-mw2h3",
+          "name": "The 35W Dual USB-C Port Compact Power Adapter allows you to charge two devices at the same time.",
+          "tagline": "The 35W Dual USB-C Port Compact Power Adapter allows you to charge two devices at the same time.",
+          "description": "The 35W Dual USB-C Port Compact Power Adapter allows you to charge two devices at the same time.",
+          "image": "/assets/accessories/sku-mw2h3.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-mkg24",
+          "name": "AirTag FineWoven Key Ring",
+          "tagline": "AirTag FineWoven Key Ring",
+          "description": "AirTag FineWoven Key Ring, snap closure button, stainless steel key ring, olive color (dark yellowish-green) material covers the outer edge of AirTag, circular cutout, AirTag visible, Apple logo centered",
+          "image": "/assets/accessories/sku-mkg24.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-hskj2",
+          "name": "Twelve South Airfly Pro 2 Bluetooth Transmitter",
+          "tagline": "Twelve South Airfly Pro 2 Bluetooth Transmitter",
+          "description": "Twelve South Airfly Pro 2 Bluetooth Transmitter, top exterior, pink color, 3.5mm plug at top, volume control buttons, AirFly logo at bottom",
+          "image": "/assets/accessories/sku-hskj2.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-mkf94",
+          "name": "Wrist Strap",
+          "tagline": "Wrist Strap",
+          "description": "Wrist Strap, olive color (dark yellowish-green), a single strap with a connector at the end",
+          "image": "/assets/accessories/sku-mkf94.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-hsl52",
+          "name": "Twelve South Power Clip Battery",
+          "tagline": "Twelve South Power Clip Battery",
+          "description": "Twelve South Power Clip Battery, front exterior, white color, rounded corners, carabiner at top, four LED power indicators at left, power button at right, Twelve South logo at center",
+          "image": "/assets/accessories/sku-hsl52.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-hsfc2",
+          "name": "Herschel Cloudform Crossbody Bag for iPhone",
+          "tagline": "Herschel Cloudform Crossbody Bag for iPhone",
+          "description": "Herschel Cloudform Crossbody Bag for iPhone, front exterior, pink color, zipper enclosure at top, adjustable shoulder strap, Herschel logo at bottom",
+          "image": "/assets/accessories/sku-hsfc2.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-hs7w2",
+          "name": "Aer Go Pack 2",
+          "tagline": "Aer Go Pack 2",
+          "description": "Aer Go Pack 2, front exterior, gray color, handle at top and front pocket with magnetic fastener, Aer logo tag at lower right",
+          "image": "/assets/accessories/sku-hs7w2.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-hsm82",
+          "name": "Herschel Cloudform Burrard Organizer Tech case",
+          "tagline": "Herschel Cloudform Burrard Organizer Tech case",
+          "description": "Herschel Cloudform Burrard Organizer Tech case, light blue color, zippered open, charger, cables, and AirPods case in organizer pockets",
+          "image": "/assets/accessories/sku-hsm82.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-hsjt2",
+          "name": "Nimble Champ Stretch 10K Charger",
+          "tagline": "Nimble Champ Stretch 10K Charger",
+          "description": "Nimble Champ Stretch 10K Charger, front exterior, blue color, LED battery gauge at top, text reads: 100%, Nimble elephant logo at bottom",
+          "image": "/assets/accessories/sku-hsjt2.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        },
+        {
+          "slug": "sku-hslw2",
+          "name": "Logitech MX Master 4 Mouse",
+          "tagline": "Logitech MX Master 4 Mouse",
+          "description": "Logitech MX Master 4 Mouse, top exterior, black color, rounded corners, thumb scroll wheel at side, finger scroll wheel at top, LED indicator at center, Logitech logo at left",
+          "image": "/assets/accessories/sku-hslw2.jpg",
+          "source": "https://www.apple.com/shop/accessories/all",
+          "appleUrl": "https://www.apple.com/shop/accessories/all"
+        }
+      ],
+      "gallery": []
+    }
+  ],
+  "clips": {
+    "duo": {
+      "alt": "Held in hands, iPhone Duo in Star White rotates from the closed folded position to an open landscape position.",
+      "poster": "/assets/clips/duo/hero-poster.jpg",
+      "width": 966,
+      "height": 640,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/duo/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/duo/hero-large.mp4"
+        }
+      ]
+    },
+    "macbook-pro": {
+      "alt": "Animation of a MacBook Pro positioning into the shape of a V, referencing the M5 chip family.",
+      "poster": "/assets/clips/macbook-pro/hero-poster.jpg",
+      "width": 1440,
+      "height": 1440,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/macbook-pro/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/macbook-pro/hero-large.mp4"
+        }
+      ]
+    },
+    "watch-ultra-4": {
+      "alt": "Apple Watch Ultra 4 hero animation.",
+      "poster": "/assets/clips/watch-ultra-4/hero-poster.jpg",
+      "width": 1260,
+      "height": 446,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/watch-ultra-4/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/watch-ultra-4/hero-large.mp4"
+        }
+      ]
+    },
+    "ipad-pro": {
+      "alt": "iPad Pro welcome hero animation.",
+      "poster": "/assets/clips/ipad-pro/hero-poster.jpg",
+      "width": 1446,
+      "height": 816,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/ipad-pro/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/ipad-pro/hero-large.mp4"
+        }
+      ]
+    },
+    "airpods-pro": {
+      "alt": "AirPods Pro 3 welcome hero animation.",
+      "poster": "/assets/clips/airpods-pro/hero-poster.jpg",
+      "width": 1279,
+      "height": 746,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/airpods-pro/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/airpods-pro/hero-large.mp4"
+        }
+      ]
+    },
+    "apple-tv-4k": {
+      "alt": "Apple TV 4K hero animation.",
+      "poster": "/assets/clips/apple-tv-4k/hero-poster.jpg",
+      "width": 1280,
+      "height": 800,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/apple-tv-4k/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/apple-tv-4k/hero-large.mp4"
+        }
+      ]
+    }
+  }
+}
