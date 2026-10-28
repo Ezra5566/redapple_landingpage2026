@@ -67,6 +67,7 @@ export default function CategoryPage() {
             line={spotlight.line}
             copy={spotlight.copy}
             theme={spotlight.theme}
+            filmClip={cat.id === 'iphone' && product.slug === 'iphone-18-pro' ? 'iphone-18-pro' : undefined}
           />
         ))}
 
@@ -74,13 +75,13 @@ export default function CategoryPage() {
         {/* FEATURED PRODUCT — only when not already spotlighted     */}
         {/* ------------------------------------------------------ */}
         {first && showFeatured && (
-          <section className="bg-surface-alt">
-            <div className="mx-auto grid max-w-[1024px] items-center gap-8 px-6 py-16 lg:grid-cols-2">
+          <section className="category-feature-stage bg-surface-alt">
+            <div className="category-feature-layout mx-auto grid max-w-[1200px] items-center gap-8 px-6 py-16 lg:grid-cols-2">
               <motion.div
                 initial={reduceMotion ? false : { opacity: 0, x: -24 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6, ease: 'easeOut' }}
-                className="order-2 text-center lg:order-1 lg:text-left"
+                className="relative z-10 order-2 text-center lg:order-1 lg:text-left"
               >
                 <p className="eyebrow">{cat.label}</p>
                 <h1 className="display-lg mt-2">{shortName(first.name)}</h1>
@@ -99,12 +100,13 @@ export default function CategoryPage() {
                 initial={reduceMotion ? false : { opacity: 0, scale: 0.96 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.65, ease: 'easeOut' }}
-                className="order-1 lg:order-2"
+                className="category-feature-art relative order-1 grid place-items-center lg:order-2"
               >
+                <div className="category-feature-halo absolute inset-0" aria-hidden />
                 <img
                   src={first.image}
                   alt={shortName(first.name)}
-                  className="mx-auto max-h-[440px] w-full object-contain drop-shadow-2xl"
+                  className="relative z-10 mx-auto max-h-[440px] w-full object-contain drop-shadow-2xl"
                 />
               </motion.div>
             </div>
@@ -118,10 +120,10 @@ export default function CategoryPage() {
           <section className="mx-auto max-w-[1024px] px-6 py-16">
             <h2 className="display-md text-center">All {cat.label}</h2>
             <p className="body-copy mt-3 text-center">
-              {grid.length} products. Tap “Buy” to jump to the shop.
+              {grid.length} products. Explore a product or view its REDAPPLEKE listing.
             </p>
 
-            <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="mt-12 grid grid-cols-1 gap-x-7 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
               {grid.map((p, i) => (
                 <motion.div
                   key={p.slug}
@@ -129,7 +131,7 @@ export default function CategoryPage() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: '-60px' }}
                   transition={{ duration: 0.5, delay: (i % 3) * 0.06, ease: 'easeOut' }}
-                  className="h-full rounded-2xl bg-surface-alt"
+                  className={`h-full rounded-[1.75rem] bg-transparent ${i % 5 === 0 ? 'product-grid-featured' : ''}`}
                 >
                   <ProductCard product={{ ...p, catId: cat.id }} />
                 </motion.div>
@@ -141,7 +143,7 @@ export default function CategoryPage() {
         {/* ------------------------------------------------------ */}
         {/* PRODUCT FILM — Apple-style autoplaying clip              */}
         {/* ------------------------------------------------------ */}
-        {clipConfig && <ClipSection config={clipConfig} />}
+        {clipConfig && <ClipSection config={clipConfig} bg="alt" />}
 
         {/* ------------------------------------------------------ */}
         {/* CATEGORY CROSS-LINKS                                    */}

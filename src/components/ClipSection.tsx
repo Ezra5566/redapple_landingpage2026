@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { motion, useReducedMotion } from 'motion/react';
 import { clip, type ClipSection as ClipSectionData } from '../data/catalog';
 
@@ -16,37 +16,64 @@ interface ClipSectionProps {
  */
 export default function ClipSection({ config, bg = 'white' }: ClipSectionProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
-  const reduceMotion = useReducedMotion();
+  const reduceMotion = useReducedMotion() ?? false;
   const data = clip(config.clipKey);
+  const [playing, setPlaying] = useState(false);
+  const [failed, setFailed] = useState(false);
+  const manualPause = useRef(false);
 
   useEffect(() => {
     const video = videoRef.current;
-    if (!video || reduceMotion) return;
+    if (!video || !data) return;
+    if (reduceMotion) {
+      video.pause();
+      return;
+    }
 
-    // Play only while meaningfully on screen; pause the moment it isn't.
+    let disposed = false;
     const io = new IntersectionObserver(
       ([entry]) => {
-        if (entry.isIntersecting) {
-          video.play().catch(() => {
-            /* autoplay block or interrupted load — poster stays up */
-          });
-        } else {
+        if (!entry.isIntersecting) {
           video.pause();
+          setPlaying(false);
+        } else if (!manualPause.current) {
+          void video.play().then(() => {
+            if (!disposed) setPlaying(true);
+          }).catch(() => {
+            if (!disposed) setPlaying(false);
+          });
         }
       },
       { threshold: 0.35 },
     );
     io.observe(video);
-    return () => io.disconnect();
-  }, [reduceMotion]);
+    return () => {
+      disposed = true;
+      io.disconnect();
+      video.pause();
+    };
+  }, [data, reduceMotion]);
 
   if (!data) return null; // clip missing from catalogue — skip silently
 
   const bgClass = bg === 'white' ? 'bg-white' : 'bg-surface-alt';
+  const togglePlayback = () => {
+    const video = videoRef.current;
+    if (!video) return;
+    if (video.paused) {
+      manualPause.current = false;
+      if (reduceMotion) return;
+      video.play().then(() => setPlaying(true)).catch(() => setPlaying(false));
+    } else {
+      manualPause.current = true;
+      video.pause();
+      setPlaying(false);
+    }
+  };
 
   return (
     <section className={`${bgClass} py-20`}>
-      <div className="mx-auto max-w-[1024px] px-6 text-center">
+      <div className="mx-auto max-w-[1200px] px-6 text-center">
         <motion.div
           initial={reduceMotion ? false : { opacity: 0, y: 18 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -68,7 +95,7 @@ export default function ClipSection({ config, bg = 'white' }: ClipSectionProps) 
           style={{ maxWidth: `${data.width}px` }}
         >
           <div
-            className="relative overflow-hidden rounded-3xl bg-surface-alt shadow-[0_30px_60px_rgb(0_0_0/0.12)]"
+            className="category-film-stage relative overflow-hidden rounded-[2rem] bg-night shadow-[0_30px_60px_rgb(0_0_0/0.12)]"
             style={{ aspectRatio: `${data.width} / ${data.height}` }}
           >
             <video
@@ -81,19 +108,36 @@ export default function ClipSection({ config, bg = 'white' }: ClipSectionProps) 
                   el.setAttribute('muted', '');
                 }
               }}
-              className="absolute inset-0 h-full w-full object-cover"
+              className="absolute inset-0 h-full w-full object-contain"
               poster={data.poster}
               muted
+              onPlay={() => setPlaying(true)}
+              onPause={() => setPlaying(false)}
+              onError={() => setFailed(true)}
+              onLoadedData={() => setFailed(false)}
+              onClick={() => {
+                if (videoRef.current?.paused) {
+                  manualPause.current = false;
+                  if (reduceMotion) return;
+                  videoRef.current.play().then(() => setPlaying(true)).catch(() => setPlaying(false));
+                } else if (videoRef.current) {
+                  manualPause.current = true;
+                  videoRef.current.pause();
+                  setPlaying(false);
+                }
+              }}
               loop
               playsInline
-              preload="none"
+              preload="metadata"
               aria-label={data.alt}
               role="img"
             >
-              {data.sources.map((s) => (
-                <source key={s.file} src={s.file} media={s.media || undefined} type="video/mp4" />
+              {data.sources.map((source) => (
+                <source key={source.file} src={source.file} media={source.media || undefined} type="video/mp4" />
               ))}
             </video>
+            {failed && <p className="absolute inset-0 z-10 grid place-items-center text-white/80">Film unavailable.</p>}
+            <button type="button" onClick={(event) => { event.stopPropagation(); togglePlayback(); }} className="category-film-control absolute bottom-4 right-4 z-20 rounded-full border border-white/25 bg-black/45 px-4 py-2 text-sm text-white backdrop-blur-md" aria-label={playing ? `Pause ${config.eyebrow ?? config.headline}` : `Play ${config.eyebrow ?? config.headline}`} aria-pressed={playing} disabled={reduceMotion && !playing} title={reduceMotion ? 'Playback is disabled by your reduced-motion preference' : undefined}>{playing ? 'Pause film' : 'Play film'}</button>
           </div>
           <p className="mt-4 text-xs text-ink-faint">{config.footnote}</p>
         </motion.div>

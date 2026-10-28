@@ -3,8 +3,9 @@ import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import GlobalNav from './components/GlobalNav';
 import Footer from './components/Footer';
-import Home from './pages/Home';
+import LaunchHome from './pages/LaunchHome';
 import CategoryPage from './pages/CategoryPage';
+import ProductPage from './pages/ProductPage';
 import NotFound from './pages/NotFound';
 import './index.css';
 
@@ -22,7 +23,8 @@ function Shell() {
       <ScrollToTop />
       <GlobalNav />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<LaunchHome />} />
+        <Route path="/c/:catId/p/:slug" element={<ProductPage />} />
         <Route path="/c/:catId" element={<CategoryPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

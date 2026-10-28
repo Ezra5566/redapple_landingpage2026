@@ -77,7 +77,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a className="hover:text-ink hover:underline" href="https://wa.me/" target="_blank" rel="noreferrer">
+                <a className="hover:text-ink hover:underline" href="https://wa.me/254718398081?text=Hi%20REDAPPLEKE%2C%20I%E2%80%99d%20like%20to%20ask%20about%20Apple%20products." target="_blank" rel="noreferrer">
                   Contact Sales
                 </a>
               </li>

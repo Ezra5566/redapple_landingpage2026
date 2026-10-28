@@ -207,18 +207,18 @@ export interface ClipSection {
 
 export const CLIP_SECTIONS: Record<string, ClipSection> = {
   iphone: {
-    clipKey: 'duo',
-    eyebrow: 'iPhone Duo',
-    headline: 'Closed. Open. Unstoppable.',
-    copy: 'The thinnest, largest, most versatile iPhone ever — watch it swing from pocket-size to widescreen.',
-    footnote: 'Film shown on apple.com · iPhone Duo',
+    clipKey: 'iphone-18-pro',
+    eyebrow: 'iPhone 18 Pro',
+    headline: 'Total AI powerhouse.',
+    copy: 'A20 Pro, an advanced 48MP camera system, and the latest Pro design — made for the moments that matter.',
+    footnote: 'Film shown on apple.com · iPhone 18 Pro',
   },
   mac: {
-    clipKey: 'macbook-pro',
-    eyebrow: 'MacBook Pro',
-    headline: 'Supercharged by M5.',
-    copy: 'The most advanced Mac laptops for demanding workflows, now with the M5, M5 Pro and M5 Max chips.',
-    footnote: 'Film shown on apple.com · MacBook Pro',
+    clipKey: 'macbook-m6-hero',
+    eyebrow: 'MacBook Pro with M6',
+    headline: 'Pro moves. M6 power.',
+    copy: 'A new generation of MacBook Pro, designed for demanding workflows, cinematic visuals, and on-device AI.',
+    footnote: 'Film shown on apple.com · MacBook Pro with M6',
   },
   watch: {
     clipKey: 'watch-ultra-4',

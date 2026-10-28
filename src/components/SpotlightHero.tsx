@@ -1,5 +1,6 @@
 import { motion, useReducedMotion } from 'motion/react';
-import { shopLinkFor, shortName, type Product } from '../data/catalog';
+import { clip, shopLinkFor, shortName, type Product } from '../data/catalog';
+import LaunchFilm from './LaunchFilm';
 
 interface SpotlightHeroProps {
   /** Spotlighted product. */
@@ -14,6 +15,7 @@ interface SpotlightHeroProps {
   copy?: string;
   /** Dark hero variant (default) or light. */
   theme?: 'dark' | 'light';
+  filmClip?: string;
 }
 
 /**
@@ -27,6 +29,7 @@ export default function SpotlightHero({
   line,
   copy,
   theme = 'dark',
+  filmClip,
 }: SpotlightHeroProps) {
   const reduceMotion = useReducedMotion();
   const buy = shopLinkFor(catId, product);
@@ -34,7 +37,7 @@ export default function SpotlightHero({
   const dark = theme === 'dark';
 
   return (
-    <section className={`relative overflow-hidden ${dark ? 'bg-night text-white' : 'bg-surface-alt'}`}>
+    <section className={`spotlight-stage relative overflow-hidden ${dark ? 'bg-night text-white' : 'bg-surface-alt'}`}>
       {/* soft brand-red halo behind the product */}
       <div
         aria-hidden
@@ -45,7 +48,7 @@ export default function SpotlightHero({
         }}
       />
 
-      <div className="relative mx-auto flex max-w-[1024px] flex-col items-center px-6 pb-14 pt-16 text-center lg:pt-20">
+      <div className="relative mx-auto flex max-w-[1200px] flex-col items-center px-6 pb-16 pt-16 text-center lg:pt-20">
         <motion.div
           initial={reduceMotion ? false : { opacity: 0, y: 18 }}
           animate={{ opacity: 1, y: 0 }}
@@ -73,14 +76,24 @@ export default function SpotlightHero({
           </div>
         </motion.div>
 
-        <motion.img
+        <motion.div
           initial={reduceMotion ? false : { opacity: 0, y: 26, scale: 0.97 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ duration: 0.7, delay: 0.1, ease: 'easeOut' }}
-          src={product.image}
-          alt={name}
-          className="mt-10 max-h-[420px] w-auto max-w-full object-contain drop-shadow-2xl"
-        />
+          className="spotlight-product-stage relative mt-10 grid min-h-[260px] w-full place-items-center sm:min-h-[360px]"
+        >
+          <div aria-hidden className="spotlight-product-glow absolute inset-0" />
+          {filmClip && clip(filmClip) ? (
+            <LaunchFilm clipKey={filmClip} label={`${name} product film`} className="spotlight-film relative z-10 w-full max-w-[960px]" fit="contain" />
+          ) : (
+            <img
+              src={product.image}
+              alt={name}
+              loading="lazy"
+              className="relative z-10 max-h-[420px] w-auto max-w-full object-contain drop-shadow-2xl"
+            />
+          )}
+        </motion.div>
       </div>
     </section>
   );

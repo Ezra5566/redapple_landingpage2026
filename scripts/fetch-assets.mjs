@@ -244,6 +244,72 @@ async function harvestProduct(slug, catId) {
 /* ------------------------------------------------------------------ */
 const CLIPS = [
   {
+    key: 'iphone-18-pro',
+    page: 'https://www.apple.com/iphone-18-pro/',
+    videoId: 'media-hero-video',
+    poster: 'first-frame',
+    alt: 'iPhone 18 Pro in burgundy rotates over the word PRO.',
+    width: 1280,
+    crf: 28,
+    sectionVideos: [
+      { key: 'camera', id: 'media-block-gallery-item-1', alt: 'iPhone 18 Pro camera highlight.' },
+      { key: 'camera-detail', id: 'pro-camera-video-scrub', alt: 'iPhone 18 Pro camera close-up and optical zoom.' },
+      { key: 'night-camera', id: 'overview_pro-camera_control_opticalzoom', alt: 'iPhone 18 Pro variable aperture camera controls.' },
+      { key: 'timelapse', id: 'overview_pro-video_timelapse', alt: 'iPhone 18 Pro 4K timelapse video.' },
+      { key: 'battery', id: 'media-block-gallery-item-2', alt: 'iPhone 18 Pro battery highlight.' },
+      { key: 'colors', id: 'media-block-gallery-item-3', alt: 'iPhone 18 Pro color finishes.' },
+      { key: 'chip', id: 'media-block-gallery-item-4', alt: 'iPhone 18 Pro A20 Pro chip feature.' },
+      { key: 'aperture', id: 'product-viewer-item3', alt: 'iPhone 18 Pro variable-aperture camera details.' },
+      { key: 'zoom', id: 'product-viewer-item4', alt: 'iPhone 18 Pro camera zoom details.' },
+      { key: 'video', id: 'pro-video-hw', alt: 'iPhone 18 Pro professional video feature.' },
+      { key: 'performance', id: 'performance', alt: 'iPhone 18 Pro performance feature.' },
+    ],
+  },
+  {
+    key: 'macbook-m6',
+    page: 'https://www.apple.com/macbook-pro/proled-xdr-display/',
+    videoId: 'media-hero-video',
+    poster: 'first-frame',
+    alt: 'MacBook Pro with PROLED XDR display hero film.',
+    width: 1440,
+    crf: 27,
+    sectionVideos: [
+      { key: 'hero', id: 'landing-mac-video', alt: 'MacBook Pro with M6 cinematic hero.' },
+      { key: 'display', id: 'media-block-gallery-item-1', alt: 'MacBook Pro PROLED XDR display highlight.' },
+      { key: 'touch-display', id: 'media-block-gallery-item-2', alt: 'MacBook Pro PROLED XDR touch display highlight.' },
+      { key: 'chip', id: 'media-block-gallery-item-3', alt: 'MacBook Pro with M6 chip highlight.' },
+      { key: 'ai', id: 'media-block-gallery-item-4', alt: 'MacBook Pro on-device AI feature.' },
+      { key: 'tandem-oled', id: 'tandem-oled', alt: 'MacBook Pro tandem OLED display layers.' },
+      { key: 'touch', id: 'touchVideoScrub', alt: 'MacBook Pro touch interactions on PROLED XDR.' },
+      { key: 'performance', id: 'performanceVideoScrub', alt: 'MacBook Pro M6 performance.' },
+    ],
+  },
+  {
+    key: 'iphone-duo-display',
+    page: 'https://www.apple.com/iphone-duo/',
+    videoId: 'immersive-hero-video',
+    posterUrl: 'https://www.apple.com/v/iphone-duo/a/images/overview/media-hero/hero_startframe__fcol1x2us8i2_large.jpg',
+    alt: 'iPhone Duo opens to reveal its immersive display.',
+    width: 1080,
+    crf: 30,
+  },
+  {
+    key: 'ipad-mini-2026',
+    page: 'https://www.apple.com/ipad-mini/',
+    videoId: 'oled-display-video',
+    poster: 'first-frame',
+    alt: 'The new iPad mini OLED display film.',
+    width: 960,
+    crf: 30,
+    sectionVideos: [
+      { key: 'oled-display', id: 'oled-display-video', alt: 'The OLED display on the redesigned iPad mini.' },
+      { key: 'display-detail', id: 'media-block-gallery-item-2', alt: 'iPad mini all-new OLED display highlight.' },
+      { key: 'water-resistance', id: 'product-viewer-water-dust', alt: 'Water and dust resistance on iPad mini.' },
+      { key: 'performance', id: 'performance-video', alt: 'iPad mini performance.' },
+      { key: 'creativity', id: 'creativity-video', alt: 'Creative work on iPad mini.' },
+    ],
+  },
+  {
     key: 'duo',
     page: 'https://www.apple.com/iphone-duo/',
     videoId: 'media-hero-video',
@@ -259,12 +325,74 @@ const CLIPS = [
     alt: 'Animation of a MacBook Pro positioning into the shape of a V, referencing the M5 chip family.',
   },
   {
+    key: 'imac-m6',
+    page: 'https://www.apple.com/imac/',
+    videoId: 'media-hero-video',
+    poster: 'first-frame',
+    alt: 'The new iMac with M6 hero animation.',
+    width: 960,
+    crf: 30,
+    sectionVideos: [
+      { key: 'design', id: 'media-block-gallery-item-2', alt: 'Colorful iMac design highlight.' },
+      { key: 'performance', id: 'performance-video', alt: 'iMac M6 performance feature.' },
+      { key: 'display', id: 'display-hero-video', alt: '24-inch iMac display feature.' },
+      { key: 'center-stage', id: 'center-stage', alt: 'Center Stage video calls on iMac.' },
+    ],
+  },
+  {
+    key: 'homeview-2026',
+    page: 'https://www.apple.com/homeview/',
+    videoId: 'media-hero-video',
+    poster: 'first-frame',
+    alt: 'Apple HomeView smart home display film.',
+    width: 960,
+    crf: 30,
+    sectionVideos: [
+      { key: 'siri', id: 'media-block-gallery-item-2', alt: 'Siri on Apple HomeView.' },
+      { key: 'multiuser', id: 'media-block-gallery-item-3', alt: 'Personal profiles on Apple HomeView.' },
+      { key: 'privacy', id: 'media-block-gallery-item-7', alt: 'Privacy features on Apple HomeView.' },
+      { key: 'experiences', id: 'experiences-video', alt: 'Experiences on Apple HomeView.' },
+    ],
+  },
+  {
+    key: 'homepod-mini-2',
+    page: 'https://www.apple.com/homepod-mini-2/',
+    videoId: 'hero',
+    poster: 'first-frame',
+    alt: 'HomePod mini 2 color and sound film.',
+    width: 960,
+    crf: 30,
+    sectionVideos: [
+      { key: 'sound', id: 'media-block-gallery-item-2', alt: 'Room-filling sound from HomePod mini 2.' },
+      { key: 'glow', id: 'sound-glow', alt: 'HomePod mini 2 reacts with a colorful glow.' },
+    ],
+  },
+  {
     key: 'watch-ultra-4',
     page: 'https://www.apple.com/apple-watch-ultra-4/',
     videoId: 'media-hero-video',
-    posterUrl:
-      'https://www.apple.com/v/apple-watch-ultra-4/a/images/overview/media-hero/hero_startframe__byn66fgbfjea_large.jpg',
+    posterUrl: 'https://www.apple.com/v/apple-watch-ultra-4/a/images/overview/media-hero/hero_startframe__byn66fgbfjea_large.jpg',
     alt: 'Apple Watch Ultra 4 hero animation.',
+    width: 960,
+    crf: 30,
+  },
+  {
+    key: 'airpods-5',
+    page: 'https://www.apple.com/airpods-5/',
+    videoId: 'welcome-hero-airpods',
+    poster: 'first-frame',
+    alt: 'AirPods 5 launch animation.',
+    width: 960,
+    crf: 30,
+  },
+  {
+    key: 'apple-tv-4k-2026',
+    page: 'https://www.apple.com/apple-tv-4k/',
+    videoId: 'siri-ai-video',
+    poster: 'first-frame',
+    alt: 'Apple TV 4K with Siri AI feature film.',
+    width: 960,
+    crf: 30,
   },
   {
     key: 'ipad-pro',
@@ -290,6 +418,22 @@ const CLIPS = [
 ];
 
 /** Extract the first frame of an mp4 buffer to a jpg via ffmpeg. */
+async function videoCodec(filePath) {
+  const { stdout } = await execFileP('ffprobe', [
+    '-v', 'error', '-select_streams', 'v:0', '-show_entries', 'stream=codec_name', '-of', 'default=noprint_wrappers=1:nokey=1', filePath,
+  ]);
+  return stdout.trim();
+}
+
+async function encodeSafariVideo(inputPath, outputPath, maxWidth = 1440, crf = 28) {
+  await execFileP('ffmpeg', [
+    '-y', '-loglevel', 'error', '-i', inputPath,
+    '-vf', `scale='min(${maxWidth},iw)':-2`,
+    '-c:v', 'libx264', '-profile:v', 'high', '-pix_fmt', 'yuv420p',
+    '-crf', String(crf), '-preset', 'medium', '-movflags', '+faststart', '-an', outputPath,
+  ]);
+}
+
 async function firstFrameJpeg(mp4Buf, outPath) {
   const tmpIn = path.join(os.tmpdir(), `rake-clip-${Date.now()}.mp4`);
   const tmpOut = `${tmpIn}.jpg`;
@@ -339,30 +483,26 @@ async function fetchClips() {
       if (!base) throw new Error('basepath not found');
 
       const dir = path.join(ROOT, 'clips', spec.key);
-      const MAX_CLIP_BYTES = 4_000_000; // re-encode anything heavier than ~4 MB
+      const MAX_CLIP_BYTES = 1_200_000; // keep downloaded, auto-playing films near 1 MB
+      const maxWidth = spec.width ?? 960;
+      const crf = spec.crf ?? 30;
       const grab = async (file, outName) => {
         let buf = await fetchBuffer(`https://www.apple.com${base}${file}`);
         if (buf.length < 10_000) throw new Error(`clip too small: ${file}`);
         await mkdir(dir, { recursive: true });
         const outAbs = path.join(dir, outName);
         await writeFile(outAbs, buf);
-        if (buf.length > MAX_CLIP_BYTES) {
+        const codec = await videoCodec(outAbs);
+        if (codec !== 'h264' || buf.length > MAX_CLIP_BYTES) {
           // Apple TV 4K-class films ship huge — shrink to 1280-wide h264.
           const tmpOut = path.join(os.tmpdir(), `rake-tc-${Date.now()}.mp4`);
           try {
-            await execFileP('ffmpeg', [
-              '-y', '-loglevel', 'error', '-i', outAbs,
-              '-vf', "scale='min(1280,iw)':-2",
-              '-c:v', 'libx264', '-crf', '27', '-preset', 'medium',
-              '-movflags', '+faststart', '-an', tmpOut,
-            ]);
+            await encodeSafariVideo(outAbs, tmpOut, maxWidth, crf);
             const small = await readFile(tmpOut);
-            if (small.length > 100_000 && small.length < buf.length) {
+            if (small.length > 100_000 && (codec !== 'h264' || small.length < buf.length)) {
               await writeFile(outAbs, small);
               buf = small;
-              console.log(
-                `  ↳ re-encoded ${outName} to 1280w (${Math.round(buf.length / 1024)} KB)`,
-              );
+              console.log(`  ↳ re-encoded ${outName} as Safari-safe H.264 (${Math.round(buf.length / 1024)} KB)`);
             }
           } catch (e) {
             console.warn(`  ! re-encode failed for ${outName}: ${e.message.split('\n')[0]}`);
@@ -398,6 +538,50 @@ async function fetchClips() {
           { media: '', file: `/assets/clips/${spec.key}/hero-large.mp4` },
         ],
       };
+      for (const section of spec.sectionVideos ?? []) {
+        const idMatch = new RegExp(`<video\\b(?=[^>]*\\bid="${section.id}")[^>]*>`, 'i').exec(html);
+        const sectionBase = idMatch?.[0].match(/data-inline-media-basepath="([^"]+)"/)?.[1] ?? section.base;
+        if (!sectionBase) continue;
+
+        const sectionDir = `${spec.key}-${section.key}`;
+        const sectionAssets = path.join(ROOT, 'clips', sectionDir);
+        await mkdir(sectionAssets, { recursive: true });
+        const sectionSources = [];
+        let sectionDimensions;
+        for (const [breakpoint, filename] of [['medium', 'hero-medium.mp4'], ['large', 'hero-large.mp4']]) {
+          const original = await fetchBuffer(`https://www.apple.com${sectionBase}${breakpoint}.mp4`);
+          if (original.length < 10_000) throw new Error(`section clip too small: ${sectionDir}/${breakpoint}`);
+          let optimized = original;
+          const sourcePath = path.join(os.tmpdir(), `ra-${sectionDir}-${breakpoint}-${Date.now()}-in.mp4`);
+          const tmpOut = `${sourcePath}.out.mp4`;
+          await writeFile(sourcePath, original);
+          try {
+            const codec = await videoCodec(sourcePath);
+            if (codec !== 'h264' || original.length > MAX_CLIP_BYTES) {
+              await encodeSafariVideo(sourcePath, tmpOut, maxWidth, crf);
+              const encoded = await readFile(tmpOut);
+              if (encoded.length > 100_000 && (codec !== 'h264' || encoded.length < original.length)) optimized = encoded;
+            }
+          } finally {
+            await Promise.allSettled([unlink(sourcePath), unlink(tmpOut)]);
+          }
+          await writeFile(path.join(sectionAssets, filename), optimized);
+          sectionSources.push({ media: breakpoint === 'medium' ? '(max-width: 734px)' : '', file: `/assets/clips/${sectionDir}/${filename}` });
+          if (breakpoint === 'large') sectionDimensions = mp4Dims(optimized);
+          console.log(`  ✓ clips/${sectionDir}/${filename} (${Math.round(optimized.length / 1024)} KB)`);
+        }
+        const sectionPoster = `/assets/clips/${sectionDir}/hero-poster.jpg`;
+        const smallVideo = await readFile(path.join(sectionAssets, 'hero-medium.mp4'));
+        await firstFrameJpeg(smallVideo, path.join(sectionAssets, 'hero-poster.jpg'));
+        if (!sectionDimensions?.w || !sectionDimensions?.h) throw new Error(`could not read video dimensions for ${sectionDir}`);
+        clips[sectionDir] = {
+          alt: section.alt,
+          poster: sectionPoster,
+          width: sectionDimensions.w,
+          height: sectionDimensions.h,
+          sources: sectionSources,
+        };
+      }
     } catch (e) {
       console.warn(`  ! clip ${spec.key}: ${e.message}`);
     }
@@ -469,10 +653,21 @@ async function buildAccessories(shopHtmlExists = true) {
 /* ------------------------------------------------------------------ */
 async function main() {
   const accessoriesOnly = process.argv.includes('--accessories-only');
+  const clipsOnly = process.argv.includes('--clips-only');
 
-  const data = accessoriesOnly
+  const data = accessoriesOnly || clipsOnly
     ? JSON.parse(await readFile(path.join(ROOT, 'products.json'), 'utf8'))
     : { fetchedAt: new Date().toISOString(), source: 'https://www.apple.com', categories: [] };
+
+  if (clipsOnly) {
+    console.log('■ Video clips');
+    data.clips = { ...(data.clips ?? {}), ...(await fetchClips()) };
+    const json = JSON.stringify(data, null, 2);
+    await writeFile(path.join(ROOT, 'products.json'), json);
+    await writeFile(path.resolve(process.cwd(), 'src/data/products.json'), json);
+    console.log(`✓ updated ${Object.keys(data.clips).length} clip entries`);
+    return;
+  }
 
   if (!accessoriesOnly) {
     console.log('→ discovering apple.com categories…');

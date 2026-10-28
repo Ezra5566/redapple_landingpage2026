@@ -829,8 +829,8 @@
     "airpods-pro": {
       "alt": "AirPods Pro 3 welcome hero animation.",
       "poster": "/assets/clips/airpods-pro/hero-poster.jpg",
-      "width": 1279,
-      "height": 746,
+      "width": 960,
+      "height": 560,
       "sources": [
         {
           "media": "(max-width: 734px)",
@@ -855,6 +855,646 @@
         {
           "media": "",
           "file": "/assets/clips/apple-tv-4k/hero-large.mp4"
+        }
+      ]
+    },
+    "iphone-18-pro": {
+      "alt": "iPhone 18 Pro in burgundy rotates over the word PRO.",
+      "poster": "/assets/clips/iphone-18-pro/hero-poster.jpg",
+      "width": 1280,
+      "height": 960,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/iphone-18-pro/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/iphone-18-pro/hero-large.mp4"
+        }
+      ]
+    },
+    "iphone-18-pro-camera": {
+      "alt": "iPhone 18 Pro camera highlight.",
+      "poster": "/assets/clips/iphone-18-pro-camera/hero-poster.jpg",
+      "width": 1260,
+      "height": 612,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/iphone-18-pro-camera/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/iphone-18-pro-camera/hero-large.mp4"
+        }
+      ]
+    },
+    "iphone-18-pro-battery": {
+      "alt": "iPhone 18 Pro battery highlight.",
+      "poster": "/assets/clips/iphone-18-pro-battery/hero-poster.jpg",
+      "width": 1260,
+      "height": 612,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/iphone-18-pro-battery/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/iphone-18-pro-battery/hero-large.mp4"
+        }
+      ]
+    },
+    "iphone-18-pro-colors": {
+      "alt": "iPhone 18 Pro color finishes.",
+      "poster": "/assets/clips/iphone-18-pro-colors/hero-poster.jpg",
+      "width": 1260,
+      "height": 612,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/iphone-18-pro-colors/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/iphone-18-pro-colors/hero-large.mp4"
+        }
+      ]
+    },
+    "macbook-m6": {
+      "alt": "MacBook Pro with PROLED XDR display hero film.",
+      "poster": "/assets/clips/macbook-m6/hero-poster.jpg",
+      "width": 1440,
+      "height": 546,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/macbook-m6/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/macbook-m6/hero-large.mp4"
+        }
+      ]
+    },
+    "macbook-m6-touch-display": {
+      "alt": "MacBook Pro PROLED XDR touch display highlight.",
+      "poster": "/assets/clips/macbook-m6-touch-display/hero-poster.jpg",
+      "width": 1260,
+      "height": 612,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/macbook-m6-touch-display/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/macbook-m6-touch-display/hero-large.mp4"
+        }
+      ]
+    },
+    "iphone-duo-display": {
+      "alt": "iPhone Duo opens to reveal its immersive display.",
+      "poster": "/assets/clips/iphone-duo-display/hero-poster.jpg",
+      "width": 1080,
+      "height": 604,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/iphone-duo-display/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/iphone-duo-display/hero-large.mp4"
+        }
+      ]
+    },
+    "imac-m6": {
+      "alt": "The new iMac with M6 hero animation.",
+      "poster": "/assets/clips/imac-m6/hero-poster.jpg",
+      "width": 982,
+      "height": 590,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/imac-m6/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/imac-m6/hero-large.mp4"
+        }
+      ]
+    },
+    "airpods-5": {
+      "alt": "AirPods 5 launch animation.",
+      "poster": "/assets/clips/airpods-5/hero-poster.jpg",
+      "width": 959,
+      "height": 586,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/airpods-5/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/airpods-5/hero-large.mp4"
+        }
+      ]
+    },
+    "apple-tv-4k-2026": {
+      "alt": "Apple TV 4K with Siri AI feature film.",
+      "poster": "/assets/clips/apple-tv-4k-2026/hero-poster.jpg",
+      "width": 814,
+      "height": 458,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/apple-tv-4k-2026/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/apple-tv-4k-2026/hero-large.mp4"
+        }
+      ]
+    },
+    "iphone-18-pro-chip": {
+      "alt": "iPhone 18 Pro A20 Pro chip feature.",
+      "poster": "/assets/clips/iphone-18-pro-chip/hero-poster.jpg",
+      "width": 1260,
+      "height": 612,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/iphone-18-pro-chip/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/iphone-18-pro-chip/hero-large.mp4"
+        }
+      ]
+    },
+    "iphone-18-pro-aperture": {
+      "alt": "iPhone 18 Pro variable-aperture camera details.",
+      "poster": "/assets/clips/iphone-18-pro-aperture/hero-poster.jpg",
+      "width": 1440,
+      "height": 760,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/iphone-18-pro-aperture/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/iphone-18-pro-aperture/hero-large.mp4"
+        }
+      ]
+    },
+    "iphone-18-pro-zoom": {
+      "alt": "iPhone 18 Pro camera zoom details.",
+      "poster": "/assets/clips/iphone-18-pro-zoom/hero-poster.jpg",
+      "width": 1440,
+      "height": 760,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/iphone-18-pro-zoom/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/iphone-18-pro-zoom/hero-large.mp4"
+        }
+      ]
+    },
+    "iphone-18-pro-video": {
+      "alt": "iPhone 18 Pro professional video feature.",
+      "poster": "/assets/clips/iphone-18-pro-video/hero-poster.jpg",
+      "width": 1280,
+      "height": 862,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/iphone-18-pro-video/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/iphone-18-pro-video/hero-large.mp4"
+        }
+      ]
+    },
+    "iphone-18-pro-performance": {
+      "alt": "iPhone 18 Pro performance feature.",
+      "poster": "/assets/clips/iphone-18-pro-performance/hero-poster.jpg",
+      "width": 1281,
+      "height": 630,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/iphone-18-pro-performance/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/iphone-18-pro-performance/hero-large.mp4"
+        }
+      ]
+    },
+    "macbook-m6-display": {
+      "alt": "MacBook Pro PROLED XDR display highlight.",
+      "poster": "/assets/clips/macbook-m6-display/hero-poster.jpg",
+      "width": 1260,
+      "height": 612,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/macbook-m6-display/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/macbook-m6-display/hero-large.mp4"
+        }
+      ]
+    },
+    "macbook-m6-chip": {
+      "alt": "MacBook Pro with M6 chip highlight.",
+      "poster": "/assets/clips/macbook-m6-chip/hero-poster.jpg",
+      "width": 1260,
+      "height": 612,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/macbook-m6-chip/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/macbook-m6-chip/hero-large.mp4"
+        }
+      ]
+    },
+    "macbook-m6-ai": {
+      "alt": "MacBook Pro on-device AI feature.",
+      "poster": "/assets/clips/macbook-m6-ai/hero-poster.jpg",
+      "width": 1260,
+      "height": 612,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/macbook-m6-ai/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/macbook-m6-ai/hero-large.mp4"
+        }
+      ]
+    },
+    "macbook-m6-tandem-oled": {
+      "alt": "MacBook Pro tandem OLED display layers.",
+      "poster": "/assets/clips/macbook-m6-tandem-oled/hero-poster.jpg",
+      "width": 834,
+      "height": 612,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/macbook-m6-tandem-oled/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/macbook-m6-tandem-oled/hero-large.mp4"
+        }
+      ]
+    },
+    "iphone-18-pro-night-camera": {
+      "alt": "iPhone 18 Pro variable aperture camera controls.",
+      "poster": "/assets/clips/iphone-18-pro-night-camera/hero-poster.jpg",
+      "width": 696,
+      "height": 452,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/iphone-18-pro-night-camera/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/iphone-18-pro-night-camera/hero-large.mp4"
+        }
+      ]
+    },
+    "iphone-18-pro-timelapse": {
+      "alt": "iPhone 18 Pro 4K timelapse video.",
+      "poster": "/assets/clips/iphone-18-pro-timelapse/hero-poster.jpg",
+      "width": 696,
+      "height": 452,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/iphone-18-pro-timelapse/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/iphone-18-pro-timelapse/hero-large.mp4"
+        }
+      ]
+    },
+    "macbook-m6-hero": {
+      "alt": "MacBook Pro with M6 cinematic hero.",
+      "poster": "/assets/clips/macbook-m6-hero/hero-poster.jpg",
+      "width": 1440,
+      "height": 760,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/macbook-m6-hero/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/macbook-m6-hero/hero-large.mp4"
+        }
+      ]
+    },
+    "ipad-mini-2026": {
+      "alt": "The new iPad mini OLED display film.",
+      "poster": "/assets/clips/ipad-mini-2026/hero-poster.jpg",
+      "width": 1496,
+      "height": 676,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/ipad-mini-2026/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/ipad-mini-2026/hero-large.mp4"
+        }
+      ]
+    },
+    "ipad-mini-2026-oled-display": {
+      "alt": "The OLED display on the redesigned iPad mini.",
+      "poster": "/assets/clips/ipad-mini-2026-oled-display/hero-poster.jpg",
+      "width": 1496,
+      "height": 676,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/ipad-mini-2026-oled-display/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/ipad-mini-2026-oled-display/hero-large.mp4"
+        }
+      ]
+    },
+    "ipad-mini-2026-display-detail": {
+      "alt": "iPad mini all-new OLED display highlight.",
+      "poster": "/assets/clips/ipad-mini-2026-display-detail/hero-poster.jpg",
+      "width": 1260,
+      "height": 612,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/ipad-mini-2026-display-detail/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/ipad-mini-2026-display-detail/hero-large.mp4"
+        }
+      ]
+    },
+    "ipad-mini-2026-water-resistance": {
+      "alt": "Water and dust resistance on iPad mini.",
+      "poster": "/assets/clips/ipad-mini-2026-water-resistance/hero-poster.jpg",
+      "width": 1440,
+      "height": 760,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/ipad-mini-2026-water-resistance/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/ipad-mini-2026-water-resistance/hero-large.mp4"
+        }
+      ]
+    },
+    "ipad-mini-2026-performance": {
+      "alt": "iPad mini performance.",
+      "poster": "/assets/clips/ipad-mini-2026-performance/hero-poster.jpg",
+      "width": 961,
+      "height": 316,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/ipad-mini-2026-performance/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/ipad-mini-2026-performance/hero-large.mp4"
+        }
+      ]
+    },
+    "ipad-mini-2026-creativity": {
+      "alt": "Creative work on iPad mini.",
+      "poster": "/assets/clips/ipad-mini-2026-creativity/hero-poster.jpg",
+      "width": 959,
+      "height": 408,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/ipad-mini-2026-creativity/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/ipad-mini-2026-creativity/hero-large.mp4"
+        }
+      ]
+    },
+    "imac-m6-design": {
+      "alt": "Colorful iMac design highlight.",
+      "poster": "/assets/clips/imac-m6-design/hero-poster.jpg",
+      "width": 1260,
+      "height": 612,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/imac-m6-design/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/imac-m6-design/hero-large.mp4"
+        }
+      ]
+    },
+    "imac-m6-performance": {
+      "alt": "iMac M6 performance feature.",
+      "poster": "/assets/clips/imac-m6-performance/hero-poster.jpg",
+      "width": 1440,
+      "height": 680,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/imac-m6-performance/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/imac-m6-performance/hero-large.mp4"
+        }
+      ]
+    },
+    "imac-m6-display": {
+      "alt": "24-inch iMac display feature.",
+      "poster": "/assets/clips/imac-m6-display/hero-poster.jpg",
+      "width": 961,
+      "height": 634,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/imac-m6-display/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/imac-m6-display/hero-large.mp4"
+        }
+      ]
+    },
+    "imac-m6-center-stage": {
+      "alt": "Center Stage video calls on iMac.",
+      "poster": "/assets/clips/imac-m6-center-stage/hero-poster.jpg",
+      "width": 961,
+      "height": 542,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/imac-m6-center-stage/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/imac-m6-center-stage/hero-large.mp4"
+        }
+      ]
+    },
+    "homeview-2026": {
+      "alt": "Apple HomeView smart home display film.",
+      "poster": "/assets/clips/homeview-2026/hero-poster.jpg",
+      "width": 1260,
+      "height": 402,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/homeview-2026/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/homeview-2026/hero-large.mp4"
+        }
+      ]
+    },
+    "homeview-2026-siri": {
+      "alt": "Siri on Apple HomeView.",
+      "poster": "/assets/clips/homeview-2026-siri/hero-poster.jpg",
+      "width": 1260,
+      "height": 612,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/homeview-2026-siri/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/homeview-2026-siri/hero-large.mp4"
+        }
+      ]
+    },
+    "homeview-2026-multiuser": {
+      "alt": "Personal profiles on Apple HomeView.",
+      "poster": "/assets/clips/homeview-2026-multiuser/hero-poster.jpg",
+      "width": 1260,
+      "height": 612,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/homeview-2026-multiuser/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/homeview-2026-multiuser/hero-large.mp4"
+        }
+      ]
+    },
+    "homeview-2026-privacy": {
+      "alt": "Privacy features on Apple HomeView.",
+      "poster": "/assets/clips/homeview-2026-privacy/hero-poster.jpg",
+      "width": 1260,
+      "height": 612,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/homeview-2026-privacy/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/homeview-2026-privacy/hero-large.mp4"
+        }
+      ]
+    },
+    "homeview-2026-experiences": {
+      "alt": "Experiences on Apple HomeView.",
+      "poster": "/assets/clips/homeview-2026-experiences/hero-poster.jpg",
+      "width": 958,
+      "height": 398,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/homeview-2026-experiences/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/homeview-2026-experiences/hero-large.mp4"
+        }
+      ]
+    },
+    "homepod-mini-2": {
+      "alt": "HomePod mini 2 color and sound film.",
+      "poster": "/assets/clips/homepod-mini-2/hero-poster.jpg",
+      "width": 1440,
+      "height": 1080,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/homepod-mini-2/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/homepod-mini-2/hero-large.mp4"
+        }
+      ]
+    },
+    "homepod-mini-2-sound": {
+      "alt": "Room-filling sound from HomePod mini 2.",
+      "poster": "/assets/clips/homepod-mini-2-sound/hero-poster.jpg",
+      "width": 1260,
+      "height": 612,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/homepod-mini-2-sound/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/homepod-mini-2-sound/hero-large.mp4"
+        }
+      ]
+    },
+    "homepod-mini-2-glow": {
+      "alt": "HomePod mini 2 reacts with a colorful glow.",
+      "poster": "/assets/clips/homepod-mini-2-glow/hero-poster.jpg",
+      "width": 696,
+      "height": 452,
+      "sources": [
+        {
+          "media": "(max-width: 734px)",
+          "file": "/assets/clips/homepod-mini-2-glow/hero-medium.mp4"
+        },
+        {
+          "media": "",
+          "file": "/assets/clips/homepod-mini-2-glow/hero-large.mp4"
         }
       ]
     }
